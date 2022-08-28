@@ -27,6 +27,7 @@ namespace LogisticForStudent.Views
             else
             {
                 DisplayAlert("Error", "Usuario o contraseña incorrecto", "Ok");
+
             }
         }
 

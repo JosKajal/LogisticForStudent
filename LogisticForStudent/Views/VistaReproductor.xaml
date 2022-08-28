@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogisticForStudent.Views.VistaReproductor">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label"
+                   x:Key="lblpiepagina">
+                <Setter Property="FontSize"
+                        Value="9" />
+                <Setter Property="FontAttributes"
+                        Value="Bold" />
+                <Setter Property="TextColor"
+                        Value="Black" />
+                <Setter Property="HorizontalTextAlignment"
+                        Value="Center" />
+            </Style>
+            <Style TargetType="Image"
+                   x:Key="imagenpagina">
+                <Setter Property="HeightRequest"
+                        Value="30" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid BackgroundColor="white"
+          RowDefinitions="*,70">
+        <!--#region Pie de pagina -->
+        <StackLayout Grid.Column="1"
+                     Spacing="25"
+                     Margin="-170,650"
+                     Orientation="Horizontal">
+            <StackLayout>
+                <Image Source="https://cdn-icons-png.flaticon.com/512/3388/3388809.png"
+                       Style="{StaticResource imagenpagina}" />
+                <Label Text="Inicio"
+                       Style="{StaticResource lblpiepagina}" />
+            </StackLayout>
+            <StackLayout>
+                <Image Source="https://cdn-icons-png.flaticon.com/512/5915/5915483.png"
+                       Style="{StaticResource imagenpagina}" />
+                <Label Text="Tendencias"
+                       Style="{StaticResource lblpiepagina}" />
+            </StackLayout>
+            <Grid HorizontalOptions="CenterAndExpand">
+                <BoxView BackgroundColor="MediumPurple"
+                         HeightRequest="35"
+                         WidthRequest="60"
+                         VerticalOptions="Start"
+                         CornerRadius="12"
+                         TranslationX="8" />
+                <BoxView BackgroundColor="CadetBlue"
+                         HeightRequest="35"
+                         WidthRequest="60"
+                         VerticalOptions="Start"
+                         CornerRadius="12"
+                         TranslationX="-8" />
+                <Button Text="+"
+                        TextColor="Black"
+                        HeightRequest="35"
+                        WidthRequest="120"
+                        VerticalOptions="Start"
+                        HorizontalOptions="Center"
+                        TranslationY="-5" />
+            </Grid>
+            <StackLayout>
+                <Image Source="https://cdn-icons-png.flaticon.com/512/35/35723.png"
+                       Style="{StaticResource imagenpagina}" />
+                <Label Text="Bandeja entrada"
+                       Style="{StaticResource lblpiepagina}" />
+            </StackLayout>
+            <StackLayout>
+                <Image Source="https://cdn-icons-png.flaticon.com/512/64/64572.png"
+                       Style="{StaticResource imagenpagina}" />
+                <Label Text="Perfil"
+                       Style="{StaticResource lblpiepagina}" />
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal"
+                     HeightRequest="35"
+                     VerticalOptions="Start"
+                     Margin=" 20">
+            <Image Source="https://cdn-icons-png.flaticon.com/512/5822/5822037.png" />
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand">
+                <Label Text="Siguiendo"
+                       TextColor="Gray"
+                       VerticalOptions="Center"
+                       FontSize="10"
+                       FontAttributes="Bold"
+                       Margin="-2" />
+                <BoxView HeightRequest="12"
+                         WidthRequest="12"
+                         BackgroundColor="Red"
+                         CornerRadius="6"
+                         VerticalOptions="Start"
+                         TranslationX="-8" />
+                <Label Text="Para ti"
+                       TextColor="Black"
+                       VerticalOptions="Center"
+                       FontSize="15"
+                       FontAttributes="Bold" />
+            </StackLayout>
+            <Image Source="https://cdn-icons-png.flaticon.com/512/751/751463.png"
+                   Margin="1,0,0,15" />
+        </StackLayout<!--#region Encabezado -->
+        <!--#endregion--> >
+        <!--#endregion-->
+    </Grid>
+</ContentPage>
