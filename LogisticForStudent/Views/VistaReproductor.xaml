@@ -102,8 +102,9 @@
             </StackLayout>
             <Image Source="https://cdn-icons-png.flaticon.com/512/751/751463.png"
                    Margin="1,0,0,15" />
-        </StackLayout<!--#region Encabezado -->
-        <!--#endregion--> >
+        </StackLayout>
+        <!--#region Encabezado -->
+        <!--#endregion--> 
         <!--#endregion-->
     </Grid>
 </ContentPage>
