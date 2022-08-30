@@ -102,10 +102,10 @@
         <ShellContent Route="VistaReproductor"
                       ContentTemplate="{DataTemplate local:VistaReproductor}" />
     </FlyoutItem>
-    <FlyoutItem Title="Browse"
-                Icon="icon_feed.png">
+    <FlyoutItem Title="Guias"
+                Icon="https://cdn-icons-png.flaticon.com/512/2752/2752873.png">
         <ShellContent Route="ItemsPage"
-                      ContentTemplate="{DataTemplate local:ItemsPage}" />
+                      ContentTemplate="{DataTemplate local:Noticiasxaml}" />
     </FlyoutItem>
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
     <MenuItem Text="Logout"
