@@ -16,8 +16,6 @@ namespace LogisticForStudent.Views
         {
             InitializeComponent();
             lstguias.ItemsSource = new string[] { "Credenciales", "Constancias Estudios", "Certificados", "Horarios", "Ciclo escolar" };
-
-
         }
     }
 }

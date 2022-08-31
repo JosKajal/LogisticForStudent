@@ -102,6 +102,11 @@
         <ShellContent Route="VistaReproductor"
                       ContentTemplate="{DataTemplate local:VistaReproductor}" />
     </FlyoutItem>
+    <FlyoutItem Title="Mapa"
+                Icon="icon_about.png">
+        <ShellContent Route="Mapa"
+                      ContentTemplate="{DataTemplate local:Mapa}" />
+    </FlyoutItem>
     <FlyoutItem Title="Guias"
                 Icon="https://cdn-icons-png.flaticon.com/512/2752/2752873.png">
         <ShellContent Route="ItemsPage"
