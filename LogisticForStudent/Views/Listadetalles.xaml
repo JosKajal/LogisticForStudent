@@ -4,12 +4,12 @@
              x:Class="LogisticForStudent.Views.Listadetalles">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center">
-            <Label Text="Bienvenidos a las guias" />
             <Image x:Name="MyImagencall"
                    HeightRequest="100"
                    WidthRequest="100" />
-            <Label x:Name="Item"
-                   HorizontalTextAlignment="Center" />
+            <Label x:Name="Detalles"
+                   Margin="20,20"
+                   FontSize="Small" />
             <Label x:Name="HorariosShow"
                    Margin="20,20"
                    FontSize="Small" />

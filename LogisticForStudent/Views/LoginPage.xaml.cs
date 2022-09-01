@@ -1,4 +1,5 @@
 ﻿using LogisticForStudent.ViewModels;
+using LogisticForStudent.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace LogisticForStudent.Views
         public LoginPage()
         {
             InitializeComponent();
+
             this.BindingContext = new LoginViewModel();
         }
 
@@ -22,7 +24,7 @@ namespace LogisticForStudent.Views
         {
             if (txtUserName.Text == "admin" && txtPassword.Text == "123")
             {
-
+                Navigation.PushAsync(new AboutPage());
             }
             else
             {

@@ -11,5 +11,10 @@ namespace LogisticForStudent.Views
         {
             InitializeComponent();
         }
+
+        private void BtnIniciar_Clicked(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync($"//{nameof(VistaReproductor)}");
+        }
     }
 }

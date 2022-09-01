@@ -24,7 +24,7 @@ namespace LogisticForStudent.Views
         private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var mydetail = e.Item as VistaModelo;
-            await Navigation.PushAsync(new Listadetalles(mydetail.Name, mydetail.Detail, mydetail.Imagen));
+            await Navigation.PushAsync(new Listadetalles(mydetail.Name, mydetail.Horarios, mydetail.Imagen, mydetail.Detail));
 
 
         }
