@@ -18,15 +18,12 @@ namespace LogisticForStudent.Views
         {
             InitializeComponent();
             BindingContext = new ListaVista();
-
         }
 
         private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var mydetail = e.Item as VistaModelo;
             await Navigation.PushAsync(new Listadetalles(mydetail.Name, mydetail.Horarios, mydetail.Imagen, mydetail.Detail));
-
-
         }
     }
 }

@@ -10,7 +10,7 @@
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0"
                      VerticalOptions="Center">
-            <Image Source="https://i.postimg.cc/qMLmRHc6/logo.png"
+            <Image Source="logo.png"
                    WidthRequest="180"
                    HeightRequest="180"></Image>
             <Entry x:Name="txtUserName"

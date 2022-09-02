@@ -19,7 +19,7 @@
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
                        FontSize="40" />
-                <Image Source="https://i.postimg.cc/VkwmQVv9/logo.png" />
+                <Image Source="logo.png" />
                 <Label Text="¡Tu experiencia estudiantil con nosotros!"
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
@@ -30,7 +30,7 @@
                         CornerRadius="10"
                         FontSize="Medium"
                         x:Name="BtnIniciar"
-                        Clicked="BtnIniciar_Clicked"/>
+                        Clicked="BtnIniciar_Clicked" />
             </StackLayout>
         </Frame>
     </StackLayout>

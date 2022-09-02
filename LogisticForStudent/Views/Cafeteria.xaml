@@ -4,7 +4,7 @@
             Title="Cafeteria"
             x:Class="LogisticForStudent.Views.Cafeteria">
     <!--Pages can be added as references or inline-->
-    <ContentPage Title="Comidas"/>
+    <ContentPage Title="Comidas" />
     <ContentPage Title="Bebidas" />
     <ContentPage Title="Sabritas" />
     <ContentPage Title="Galletas" />

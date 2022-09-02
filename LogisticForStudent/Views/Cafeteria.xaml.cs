@@ -15,6 +15,7 @@ namespace LogisticForStudent.Views
         public Cafeteria()
         {
             InitializeComponent();
+
         }
     }
 }

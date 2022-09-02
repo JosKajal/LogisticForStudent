@@ -6,8 +6,14 @@
              x:Class="LogisticForStudent.Views.Mapa">
     <ContentPage.Content>
         <StackLayout>
+            <Label x:Name="LblTec"
+                   Text="Selecciona tu Tec:" HorizontalTextAlignment="Center"></Label>
             <Picker x:Name="ListaTecs"
-                    SelectedIndexChanged="ListaTecs_SelectedIndexChanged"></Picker>
+                    SelectedIndexChanged="ListaTecs_SelectedIndexChanged" HorizontalTextAlignment="Center"></Picker>
+            <Label x:Name="LblAula"
+                   Text="Selecciona el edificio:" HorizontalTextAlignment="Center"></Label>
+            <Picker x:Name="ListaAulas"
+                    SelectedIndexChanged="ListaAulas_SelectedIndexChanged" HorizontalTextAlignment="Center"></Picker>
             <maps:Map x:Name="MapView"
                       HorizontalOptions="FillAndExpand"
                       VerticalOptions="FillAndExpand" />
